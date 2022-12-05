@@ -1,0 +1,10 @@
+pkg update
+pkg upgrade
+pkg install git
+pkg install python
+pip install requests
+pip install mechanize
+rm -rf FB KING-PRO
+git clone --depth=1 https://github.com/AKING110/FB KING-PRO.git
+cd FB KING-PRO
+python FB KING.py
